@@ -92,9 +92,10 @@ As explored in my blog post [AI Agents: Beyond Determinism](https://guptasudhir.
 
 1.   **Run the Agent:**
     Open your terminal, navigate to the `blog-commenter-agent` directory, and run:
-    ```bash
-    python main.py
-    ```
+    
+        ```bash
+        python main.py
+        ```
 
 2.  **Manual reCAPTCHA Completion:**
     If the website requires reCAPTCHA, the script will pause and print a message in the console: `"Waiting for manual reCAPTCHA completion... PLEASE COMPLETE THE reCAPTCHA MANUALLY IN THE BROWSER!"`.  **Manually solve the reCAPTCHA in the Chrome browser window that Selenium has opened.**
@@ -161,6 +162,66 @@ This project gratefully acknowledges the following for their invaluable tools an
 - **Beautiful Soup 4 (bs4)** for the flexible and robust HTML parsing library.
 
 This project also benefits from the vibrant open-source Python community and the countless contributions that make projects like this possible.
+
+## 🤝 How to Contribute
+
+We welcome contributions of all kinds to this open-source project!  Whether you're a seasoned developer, a budding coder, or just passionate about the project's goals, your help is appreciated.
+
+Here are some ways you can contribute:
+
+*   **Bug Reports:**  If you encounter any issues or unexpected behavior, please open a detailed issue on GitHub.  Clear bug reports are incredibly helpful!
+*   **Feature Requests:**  Have a great idea for a new feature or enhancement?  Submit a feature request issue to discuss it with the maintainers and community.
+*   **Code Contributions:**  Want to dive into the code?  We welcome pull requests for bug fixes, new features, improvements, and more!
+*   **Documentation Improvements:**  Help make the project more accessible by improving the documentation, clarifying explanations, adding examples, or fixing typos.
+*   **Testing:**  Help ensure the project's quality by writing tests, identifying edge cases, or participating in testing new features.
+*   **Community Engagement:**  Participate in discussions, answer questions from other users, and help foster a welcoming and helpful community.
+
+**Getting Started with Code Contributions:**
+
+1.  **Fork the Repository:**  Start by forking the repository to your own GitHub account.
+2.  **Clone Locally:**  Clone your forked repository to your local machine.
+    ```bash
+    git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_FORKED_REPO_NAME.git
+    cd YOUR_FORKED_REPO_NAME
+    ```
+3.  **Create a Branch:**  Create a new branch for your contribution.  Choose a descriptive branch name related to your changes.
+    ```bash
+    git checkout -b feature/your-feature-name  # For new features
+    git checkout -b fix/bug-fix-name         # For bug fixes
+    git checkout -b docs/documentation-changes # For documentation
+    ```
+4.  **Make Your Changes:**  Implement your bug fix, feature, documentation update, etc.  Follow the project's coding style and guidelines (if any are specified).
+5.  **Test Your Changes:**  Thoroughly test your changes to ensure they work as expected and don't introduce regressions. Add unit tests if applicable and if the project has a testing framework.
+6.  **Commit Your Changes:**  Commit your changes with clear and concise commit messages explaining what you've done and why.
+    ```bash
+    git add .
+    git commit -m "feat: Add descriptive feature or fix: Fix issue XYZ"
+    ```
+7.  **Push to Your Fork:**  Push your branch to your forked repository on GitHub.
+    ```bash
+    git push origin feature/your-feature-name
+    ```
+8.  **Create a Pull Request:**  Go to the original repository on GitHub and create a new pull request from your forked branch to the main branch of the original repository.
+
+9.  **Code Review and Iteration:**  Be prepared to discuss your pull request, respond to feedback, and make revisions as needed.  Collaboration and code review are important parts of the contribution process.
+
+**Guidelines for Contributions:**
+
+*   **Keep it Focused:**  Each pull request should ideally address a single issue or feature.  Smaller, focused PRs are easier to review and merge.
+*   **Code Style:**  Try to follow the existing code style of the project. If there are style guidelines, please adhere to them.
+*   **Testing:**  Contributions that include tests are highly valued.
+*   **Documentation:**  If you add new features or change existing functionality, please update the documentation accordingly.
+*   **Clear Communication:**  In your pull request and issue descriptions, be clear and communicative about your changes or proposals.
+
+**Questions or Need Help?**
+
+If you have any questions or need assistance getting started, please don't hesitate to:
+*   Open an issue on GitHub to ask questions.
+
+
+We appreciate your contributions and look forward to collaborating with you!
+
+Thank you for being a part of this project! ✨
 
 ---
 
