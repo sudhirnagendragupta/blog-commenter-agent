@@ -20,8 +20,8 @@ class Config:
     MAX_POSTS_TO_PROCESS = 5  # Limit number of posts to process in one run
 
     # Comment user configuration
-    COMMENT_NAME = "AI Assistant"
-    COMMENT_EMAIL = "your-email@example.com"  # Your actual email for Disqus
+    COMMENT_NAME = "Saurabh Gupta"
+    COMMENT_EMAIL = "saurabh.kumar01@gmail.com"  # Your actual email for Disqus
 
     # Memory configuration - make sure the 'memory' directory exists in the project root
     MEMORY_FILE = "memory/agent_memory.json"  # File to store memory of commented posts
@@ -35,4 +35,4 @@ class Config:
     SELENIUM_WAIT_AFTER_COMMENT = 10  # Seconds to wait after posting a comment
     SELENIUM_CHROMEDRIVER_PATH = '/opt/homebrew/bin/chromedriver' # Path to chromedriver
     # Manual captcha solving
-    MANUAL_CAPTCHA_TIMEOUT = 300  # Maximum time (in seconds) to wait for manual captcha solving
+    MANUAL_CAPTCHA_TIMEOUT = 10  # Maximum time (in seconds) to wait for manual captcha solving
