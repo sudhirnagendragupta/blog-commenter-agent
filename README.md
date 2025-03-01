@@ -5,7 +5,7 @@
 [![OpenAI GPT-4o](https://img.shields.io/badge/OpenAI-GPT--4o-orange.svg)](https://openai.com/gpt-4o)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Project Overview
+## 🧠 Project Overview
 
 This project demonstrates an AI Blog Commenter Agent, built in Python, showcasing the practical application of AI Agents as discussed in my blog post: [AI Agents: Beyond Determinism](https://guptasudhir.com/blog/ai-agents-beyond-determinism).
 
@@ -28,7 +28,7 @@ As explored in my blog post [AI Agents: Beyond Determinism](https://guptasudhir.
 *   **Autonomy:** Once configured and started, the agent autonomously discovers posts, generates comments, and attempts to post them, requiring minimal human intervention (only for reCAPTCHA).
 *   **Learning (Limited):** While not explicitly implemented here as continuous learning, the agent's memory allows it to adapt its future actions based on past behavior (avoiding duplicate comments). Future iterations could incorporate feedback loops to refine comment quality or target post selection based on engagement metrics.
 
-## Features
+## 🚀 Features
 
 *   **Website Scraping:** Discovers blog posts from a target website, including pagination and tag pages.
 *   **Disqus Detection:** Identifies blog posts with Disqus commenting systems enabled.
@@ -49,14 +49,13 @@ As explored in my blog post [AI Agents: Beyond Determinism](https://guptasudhir.
 *   **`memory/agent_memory.json`**: (Created upon first run) Stores a list of URLs of blog posts that have already been commented on by the agent.
 *   **`main.py`**: The main entry point script to run the `CommentAgent`.
 
-## Setup Instructions
+## 🔧 Setup Instructions
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [repository-url]
+    git clone https://github.com/sudhirnagendragupta/blog-commenter-agent.git
     cd blog-commenter-agent
     ```
-    *(Replace `[repository-url]` with your actual repository URL once you create it on GitHub)*
 
 2.  **Install Python Dependencies:**
     It is recommended to create a virtual environment first:
@@ -73,7 +72,7 @@ As explored in my blog post [AI Agents: Beyond Determinism](https://guptasudhir.
 3.  **Set up OpenAI API Key:**
     You need an OpenAI API key to use GPT-4o for comment generation.
     *   Obtain an API key from [OpenAI](https://platform.openai.com/).
-    *   Set the API key as an environment variable named `OPENAI_API_KEY`.  How to set environment variables depends on your operating system (e.g., `.bashrc`, `.zshrc` on Linux/macOS, System Environment Variables on Windows).
+    *   Set the API key as an environment variable named `OPENAI_API_KEY`.  How to set environment variables depends on your operating system (e.g., `.bashrc`, `.zshrc` on Linux/macOS, System Environment Variables on Windows). Alternatively, you can create a .env variable in the root, and add this key. As .env is already added to .gitignore file, it ensures that your API key is not git tracked or shared publicly by mistake. Double check this to be safe.
 
 4.  **Install ChromeDriver:**
     Selenium requires ChromeDriver to control Chrome.
@@ -89,9 +88,9 @@ As explored in my blog post [AI Agents: Beyond Determinism](https://guptasudhir.
     *   **`SELENIUM_HEADLESS`**:  Initially set to `False` to observe the browser interaction and solve reCAPTCHA manually. You can set it to `True` for headless operation once you are comfortable with the agent's behavior.
     *   **`SELENIUM_CHROMEDRIVER_PATH`**:  If you did not place `chromedriver` in your system's `PATH`, update this to the absolute path of the `chromedriver` executable.
 
-## Usage Instructions
+## 🚀 Usage Instructions
 
-1.  **Run the Agent:**
+1.   **Run the Agent:**
     Open your terminal, navigate to the `blog-commenter-agent` directory, and run:
     ```bash
     python main.py
@@ -111,7 +110,7 @@ As explored in my blog post [AI Agents: Beyond Determinism](https://guptasudhir.
 4.  **Check Blog Posts:**
     Visit the blog posts on your website to verify if the comments have been successfully posted.
 
-## Potential Value Additions (Further Agentic Enhancements)
+## 🛣️ Potential Value Additions (Further Agentic Enhancements)
 
 To further enhance this Blog Commenter Agent and better embody the characteristics of an AI Agent, consider these value additions:
 
@@ -128,8 +127,41 @@ To further enhance this Blog Commenter Agent and better embody the characteristi
 
 By incorporating these enhancements, the Blog Commenter Agent can evolve to be even more intelligent, adaptive, and truly agentic in its behavior.
 
-## License
+## 📚 Learning Resources
 
-[MIT License](LICENSE) 
+To deepen your understanding of the concepts and technologies used in this project, explore these resources:
+
+- **AI Agents & Agent Concepts:**
+    - [My Blog Post: AI Agents: Beyond Determinism](https://guptasudhir.com/blog/ai-agents-beyond-determinism) -  The foundational article that inspired this project, exploring the definition and characteristics of AI Agents.
+
+- **OpenAI API (GPT-4o):**
+    - [OpenAI API Documentation](https://platform.openai.com/docs/api-reference) -  The official documentation for the OpenAI API, essential for understanding how to use GPT models for text generation and other AI tasks.
+    - [OpenAI Cookbook](https://github.com/openai/openai-cookbook) - (Optional, more advanced) A repository of example code and guides for using the OpenAI API in various scenarios.
+
+- **Selenium WebDriver for Browser Automation:**
+    - [Selenium Documentation](https://www.selenium.dev/documentation/) - The official Selenium WebDriver documentation. Learn how to automate web browser interactions for testing and web automation tasks.
+    - [Selenium Python Bindings Documentation](https://selenium-python.readthedocs.io/) -  Specifically for using Selenium with Python, covering setup, browser control, and element interaction.
+
+- **Web Scraping with Requests & Beautiful Soup:**
+    - [Requests Documentation](https://requests.readthedocs.io/en/latest/) -  Learn how to use the Requests library for making HTTP requests in Python.
+    - [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) -  The official documentation for Beautiful Soup 4, detailing how to parse HTML and XML for web scraping.
 
 
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details. 
+
+## 🙏 Acknowledgements
+
+This project gratefully acknowledges the following for their invaluable tools and technologies:
+
+- **OpenAI** for the powerful GPT-4o model, enabling intelligent comment generation.
+- **Selenium Project** for Selenium WebDriver, providing essential browser automation capabilities.
+- **Requests library** for simplifying HTTP requests and enabling efficient web scraping.
+- **Beautiful Soup 4 (bs4)** for the flexible and robust HTML parsing library.
+
+This project also benefits from the vibrant open-source Python community and the countless contributions that make projects like this possible.
+
+---
+
+Created with ❤️ by [Sudhir Gupta](https://guptasudhir.com) to demonstrate AI Agents in action.
