@@ -5,6 +5,8 @@
 [![OpenAI GPT-4o](https://img.shields.io/badge/OpenAI-GPT--4o-orange.svg)](https://openai.com/index/hello-gpt-4o/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<iframe width="560" height="315" src="https://youtu.be/ob7rihweS4k" frameborder="0" allowfullscreen></iframe>
+
 ## 🧠 Project Overview
 
 This project demonstrates an AI Blog Commenter Agent, built in Python, showcasing the practical application of AI Agents as discussed in my blog post: [AI Agents: Beyond Determinism](https://guptasudhir.com/blog/ai-agents-beyond-determinism).
