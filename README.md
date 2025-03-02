@@ -5,6 +5,7 @@
 [![OpenAI GPT-4o](https://img.shields.io/badge/OpenAI-GPT--4o-orange.svg)](https://openai.com/index/hello-gpt-4o/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/ob7rihweS4k/0.jpg)](https://www.youtube.com/watch?v=ob7rihweS4k)
 
 
 ## 🧠 Project Overview
